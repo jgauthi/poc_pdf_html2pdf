@@ -1,0 +1,32 @@
+.titre
+{
+    text-decoration: underline;
+}
+
+H1   {color: #AA0055; margin: 10px 0 2px 0; }
+H2   {color: #990066; margin: 10px 0 2px 0; }
+H3   {color: #880077; margin: 10px 0 2px 0; }
+H4   {color: #770088; margin: 10px 0 2px 0; }
+H5   {color: #660099; margin: 10px 0 2px 0; }
+H6   {color: #5500AA; margin: 10px 0 2px 0; }
+
+html {
+    /*font-family: "Times New Roman", Times, serif;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Arial, Helvetica, "DejaVu Serif";
+}
+
+p, li {
+    font-size: 12px;
+}
+p {
+    margin: 5px 0;
+}
+
+li {
+    margin: 5px 0 5px 5px;
+}
+
+blockquote {
+    font-style: italic;
+}

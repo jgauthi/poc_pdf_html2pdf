@@ -1,13 +1,16 @@
 {
-  "name": "jgauthi/template_php_poc",
-  "description": "Some usage with XXX",
+  "name": "jgauthi/poc_pdf_html2pdf",
+  "description": "Some usage with Html2Pdf",
   "type": "library",
-  "homepage": "https://github.com/jgauthi/poc_templating_smarty",
+  "homepage": "https://github.com/jgauthi/poc_pdf_html2pdf",
   "require": {
-    "php": ">=8.1"
+    "php": ">=8.1",
+    "spipu/html2pdf": "^5.2"
   },
   "autoload": {
-    "classmap": [ "src/" ]
+    "psr-4": {
+      "Jgauthi\\Html2pdf\\": "src/Html2pdf/"
+    }
   },
   "license": "GPL-3.0",
   "authors": [

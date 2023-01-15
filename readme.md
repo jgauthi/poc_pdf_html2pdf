@@ -1,7 +1,12 @@
-# Component POC XXX
-Some usage with [XXX](url).
+# Component POC Html2Pdf
+Some usage with [Html2Pdf](https://www.html2pdf.fr).
 
-> todo: Library description.
+> HTML2PDF is a HTML to PDF converter written in PHP. It allows the conversion of valid HTML 4.01 in PDF format, and is distributed under OSL. This library has been designed to handle mainly TABLE intertwined to generate invoices delivery,
+and other official documents. It does not yet have all the tags.
+
+Additional ressources:
+* [official examples](https://github.com/spipu/html2pdf/tree/master/examples)
+
 
 ## Prerequisite
 * PHP 8.1 (v1.0)
@@ -13,10 +18,10 @@ Or you can add this poc like a dependency, in this case edit your [composer.json
 ```json
 {
   "repositories": [
-    { "type": "git", "url": "git@github.com:jgauthi/poc_XXX.git" }
+    { "type": "git", "url": "git@github.com:jgauthi/poc_pdf_html2pdf.git" }
   ],
   "require": {
-    "jgauthi/poc_XXX": "1.*"
+    "jgauthi/poc_Html2Pdf": "1.*"
   }
 }
 ```
