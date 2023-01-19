@@ -1,4 +1,16 @@
 <?php
+/*******************************************************************************
+ * @name: Html 2 PDF Enhanced
+ * @note: Add methods and constants to html 2 pdf
+ * @author: Jgauthi <https://github.com/jgauthi>, created the [30jun2020]
+ * @url: https://github.com/jgauthi/poc_pdf_html2pdf
+ * @version: 1.0
+ * @Requirements:
+    - PHP version >= 7.4 / 8 (http://php.net)
+    - Library spipu/html2pdf v5
+
+ *******************************************************************************/
+
 namespace Jgauthi\Html2pdf;
 
 use Spipu\Html2Pdf\Html2Pdf as BaseHtml2Pdf;
@@ -18,13 +30,13 @@ class Html2PdfEnhanced extends BaseHtml2Pdf
     private ?string $title;
 
     public function __construct(
-        $orientation = self::ORIENTATION_PORTRAIT,
-        $format = self::FORMAT_A3,
-        $lang = 'fr',
-        $unicode = true,
-        $encoding = 'UTF-8',
-        $margins = [5, 5, 5, 8],
-        $pdfa = false,
+        string $orientation = self::ORIENTATION_PORTRAIT,
+        string $format = self::FORMAT_A3,
+        string $lang = 'fr',
+        bool $unicode = true,
+        string $encoding = 'UTF-8',
+        array $margins = [5, 5, 5, 8],
+        bool $pdfa = false,
     ) {
         parent::__construct($orientation, $format, $lang, $unicode, $encoding, $margins, $pdfa);
         $this->file = basename($_SERVER['PHP_SELF']);

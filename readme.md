@@ -9,7 +9,7 @@ Additional ressources:
 
 
 ## Prerequisite
-* PHP 8.1 (v1.0)
+* PHP 7.4 / 8 (v1.0)
 
 ## Install
 `composer install`
